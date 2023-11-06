@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import { Alert } from 'react-native';
 import { Heading, VStack, Image, Icon, useTheme } from "native-base";
+import auth from '@react-native-firebase/app';
 import { Envelope, Key } from 'phosphor-react-native'
 
 import Logo from "../assets/logo.png";
@@ -11,6 +13,12 @@ export function SignIn() {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  function handleSignIn() {
+    if (!email || !password) {
+      return Alert.alert('Entrar', 'Informe e-mail e senha.');
+    }
+  }
 
   return (
     <>

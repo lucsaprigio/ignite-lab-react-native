@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "630053968397",
+    "project_id": "speed-automac",
+    "storage_bucket": "speed-automac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630053968397:android:df8d967357eb17e0aa1344",
+        "android_client_info": {
+          "package_name": "com.speedautomac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyemj7rIkmcflKpEPEqiRQWoc_-z_qIys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
